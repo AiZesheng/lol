@@ -1,0 +1,870 @@
+/**********css reset开始**********/
+*{
+	margin: 0;
+	padding: 0;
+}
+ol,ul{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+img{
+	border: none;
+}
+/**********css reset结束**********/
+.wrapper{
+	width: 980px;
+	margin: 0 auto;
+}
+/**********header开始**********/
+#header{
+	height: 42px;
+	background: #fafafa;
+}
+#header-left{
+	display: block;
+	width: 481px;
+	height: 42px;
+	float: left;
+	background: url(../img/header-img01.jpg) no-repeat center;
+}
+#header-right{
+	float: right;
+}
+#header-right li{
+	color: #464646;
+	float: left;
+	font-size: 12px;
+	line-height: 42px;
+}
+#header-right li span{
+	margin-left: 5px;
+	margin-right: 5px;
+}
+#header-right li a:hover{
+	color: #0096d0;
+	text-decoration: underline;
+}
+#header-right li a div{
+	width: 106px;
+	height: 30px;
+	background: url(../img/返回官网首页.jpg);
+	margin-top: 6px;
+}
+#header-right li a div:hover{
+	background: url(../img/返回官网首页-h.jpg);
+}
+/**********header结束**********/
+
+/**********banner开始**********/
+#banner{
+	background: url(../img/banner-background.jpg) no-repeat center top;
+}
+#banner-top{
+	background: url(../img/banner-bg.jpg);
+	padding-bottom: 130px;
+	position: relative;
+}
+#lol{
+	display: block;
+	position: absolute;
+	width: 219px;
+	height: 120px;
+	background: url(../img/英雄去超越.jpg);
+	left: 390px;
+}
+#nav{
+	height: 72px;
+}
+#nav-left{
+	float: left;
+}
+#nav-right{
+	float: right;
+}
+#nav li{
+	float: left;
+	margin-top: 25px;
+	width: 96px;
+	height: 34px;
+	text-align: center;
+}
+#nav li div{
+	color: #c3c7d0;
+	font-weight: bolder;
+	font-size: 14px;
+}
+#nav li p{
+	color: #5a6a86;
+	font-size: 13px;
+}
+#nav li div:hover{
+	color: #00a383;
+}
+#menu{
+	margin-top: 10px;
+	height: 160px;
+}
+#check{
+	display: block;
+	width: 132px;
+	height: 39px;
+	position: absolute;
+	background: url(../img/查看详情.jpg);
+	left: 430px;
+	top: 315px;
+}
+#menu-left{
+	float: left;
+	margin-left: 96px;
+	width: 288px;
+	height: 132px;
+}
+#menu-right{
+	float: right;
+	margin-right: 96px;
+	width: 288px;
+	height: 154px;
+}
+#menu li{
+	float: left;
+	width: 96px;
+	height: 22px;
+	line-height: 22px;
+	font-size: 12px;
+	text-align: center;
+}
+#menu li a{
+	color: #fff;
+}
+#menu li a:hover{
+	color: #00a383;
+}
+#download{
+	height: 110px;
+}
+#download-left{
+	float: left;
+}
+#download-right{
+	float: left;
+	width: 388px;
+	height: 108px;
+	background: #384665;
+}
+#download-left div{
+	float: left;
+	width: 227px;
+	height: 108px;
+	background: url(../img/下载游戏.jpg);
+}
+#download-left ul{
+	float: left;
+}
+#download-left li{
+	float: left;
+}
+#download-left li a{
+	display: block;
+	width: 121px;
+	height: 108px;
+}
+#fresh{
+	background: url(../img/新手礼包.jpg) center;
+}
+#fresh:hover{
+	background: url(../img/新手礼包-h.jpg) center;
+}
+#light{
+	background: url(../img/点亮图标.jpg) center;
+}
+#light:hover{
+	background: url(../img/点亮图标-h.jpg) center;
+}
+#reputation{
+	background: url(../img/声望系统.jpg) center;
+}
+#reputation:hover{
+	background: url(../img/声望系统-h.jpg) center;
+}
+#download-right div{
+	float: left;
+	width: 80px;
+	height: 80px;
+	background: url(../img/召唤师.jpg);
+	margin-top: 14px;
+	margin-left: 10px;
+	border-radius: 5px;
+	margin-right: 15px;
+}
+#download-right h3{
+	float: left;
+	margin-top: 15px;
+	color: #fff;
+	font-size: 16px;
+}
+#download-right h3 a{
+	color: #0fc;
+	font-size: 16px;
+}
+#download-right h3 a:hover{
+	text-decoration: underline;
+}
+#download-right h4{
+	float: left;
+	width: 264px;
+	height: 8px;
+	background: url(../img/横杠.jpg);
+	margin-top: 5px;
+}
+#download-right p{
+	width: 280px;
+	font-size: 12px;
+	float: left;
+	line-height: 20px;
+	margin-top: 3px;
+	color: #b8b5b6;
+}
+#main{
+	margin-top: 10px;
+	height: 280px;
+}
+#main-left{
+	display: block;
+	width: 590px;
+	height: 280px;
+	background: url(../img/塞恩.jpg);
+	float: left;
+	cursor: pointer;
+}
+#main-right{
+	float: left;
+	width: 385px;
+	height: 280px;
+	background: #2c3241;
+}
+#main-left ul li{
+	float: left;
+	background: black;
+	width: 118px;
+	height: 40px;
+	font-size: 13px;
+	font-weight: bolder;
+	text-align: center;
+	line-height: 40px;
+	opacity: 0.9;
+	margin-top: 240px;
+}
+#main-left ul li a{
+	color: #dedede;
+	display: block;
+	width: 118px;
+	height: 40px;
+}
+#main-right-top{
+	height: 45px;
+}
+#main-right-top li{
+	float: left;
+	width: 95px;
+	height: 43px;
+	background: #232836;
+	text-align: center;
+	line-height: 43px;
+	font-weight: bolder;
+	margin-right: 1px;
+}
+#main-right-top li a{
+	display: block;
+	width: 95px;
+	height: 43px;
+	color: #767f9d;
+}
+#main-right-mid{
+	width: 347px;
+	height: 38px;
+	background: #1d212d;
+	margin: 0 auto;
+	text-align: center;
+	line-height: 38px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+#main-right-mid a{
+	color: #0fc;
+	font-size: 14px;
+	font-weight: bolder;
+}
+#main-right-mid a:hover{
+	text-decoration: underline;
+}
+#main-right-down li{
+	width: 347px;
+	height: 24px;
+	margin: 0 auto;
+	line-height: 24px;
+	font-size: 12px;
+}
+#main-right-down li a{
+	color: #fff;
+}
+#main-right-down li p{
+	float: right;
+	color: #9ba0ad;
+}
+#main-right-down span{
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url(../img/消息.jpg);
+}
+#main-right-down li h6{
+	margin-top: 4px;
+	float: right;
+	width: 20px;
+	height: 18px;
+	background: url(../img/小加号.jpg);
+}
+#main-right-down li div{
+	width: 11px;
+	height: 14px;
+	float: left;
+	background: url(../img/三角形.jpg);
+	margin-top: 3px;
+	margin-right: 5px;
+}
+#main-right-down a:hover{
+	text-decoration: underline;
+}
+#more:hover{
+	text-decoration: underline;
+}
+/**********banner结束**********/
+
+/**********video开始**********/
+#video{
+	height: 480px;
+	background: #f8f8f8;
+}
+#video-left{
+	width: 591px;
+	height: 426px;
+	float: left;
+	margin-top: 40px;
+}
+#video-right{
+	width: 350px;
+	height: 440px;
+	float: right;
+	margin-top: 40px;
+}
+#video-left h1{
+	width: 592px;
+	height: 40px;
+	background: #f8f8f8;
+	font-size: 13px;
+	font-weight: normal;
+}
+#video-left h1 div{
+	width: 104px;
+	height: 27px;
+	background: url(../img/视频中心.jpg);
+	float: left;
+}
+#video-left h1 span{
+	display: block;
+	width: 26px;
+	height: 22px;
+	background: url(../img/我要投稿.jpg);
+	float: left;
+	margin-top: 3px;
+}
+#video-left h1 a{
+	color: #666;
+	display: block;
+	line-height: 28px;
+}
+#video-left h1 a:hover{
+	text-decoration: underline;
+}
+#video-left h1 p{
+	width: 20px;
+	height: 19px;
+	background: url(../img/灰加号.jpg);
+	float: left;
+	margin-top: 3px;
+	font-weight: normal;
+}
+.video-nav ul{
+	border: 1px solid #d7d7d7;
+	border-bottom: 0;
+	border-top: 0;
+	width: 588px;
+	height: 62px;
+	background: #f0f0f0;
+}
+.video-nav ul li{
+	float: left;
+	width: 98px;
+	height: 57px;
+	background: #f0f0f0;
+	font-size: 14px;
+	text-align: center;
+	line-height: 57px;
+	margin-bottom: 20px;
+}
+.video-nav ul li a{
+	border-top: 5px solid #d7d7d7;
+	width: 98px;
+	height: 57px;
+	display: block;
+	color: #525252;
+}
+#video-left-down{
+	width: 588px;
+	height: 325px;
+	border: 1px solid #e1e1e1;
+	border-top: 0;
+	background: #fff;
+}
+#video-left-down li{
+	width: 170px;
+	height: 155px;
+	float: left;
+	margin-left: 20px;
+}
+#video-left-down li a{
+	display: block;
+	width: 170px;
+	height: 155px;
+	font-size: 12px;
+	color: #666;
+}
+#video-left-down li a:hover{
+	text-decoration: underline;
+}
+#video-left-down li a div{
+	width: 170px;
+	height: 95px;
+	margin-bottom: 10px;
+}
+#week-free-top{
+	height: 40px;
+	background: #f8f8f8;
+}
+#week-free-top div{
+	width: 133px;
+	height: 29px;
+	background: url(../img/免费英雄.jpg);
+	float: left;
+}
+#week-free-top a{
+	display: block;
+	float: right;
+	font-size: 12px;
+	color: #666;
+	line-height: 30px;
+}
+#week-free ul{
+	width: 368px;
+	height: 71px;
+}
+#week-free ul li{
+	float: left;
+	margin-right: 5px;
+}
+#week-free ul li a img{
+	width: 66px;
+	height: 66px;
+}
+#week-free a:hover{
+	text-decoration: underline;
+}
+#week-free a p{
+	width: 20px;
+	height: 19px;
+	background: url(../img/灰加号.jpg);
+	float: left;
+	margin-top: 5px;
+}
+#week-free-time{
+	font-size: 12px;
+	color: #9f9f9f;
+	float: right;
+}
+#activity-center{
+	height: 40px;
+	margin-top: 30px;
+	line-height: 30px;
+}
+#activity-center div{
+	width: 107px;
+	height: 31px;
+	background: url(../img/活动中心.jpg);
+	float: left;
+}
+#activity-center a{
+	display: block;
+	float: right;
+	font-size: 12px;
+	color: #666;
+}
+#activity-center a:hover{
+	text-decoration: underline;
+}
+#activity-center p{
+	width: 20px;
+	height: 19px;
+	float: left;
+	margin-top: 5px;
+	background: url(../img/灰加号.jpg);
+}
+#rule{
+	width: 350px;
+	height: 188px;
+}
+#rule-left{
+	display: block;
+	width: 145px;
+	height: 172px;
+	background: url(../img/统治战场.jpg);
+	float: left;
+}
+#no-die{
+	color: white;
+	font-size: 14px;
+	font-weight: bold;
+	background: #000;
+	height: 50px;
+	line-height: 20px;
+	opacity: 0.9;
+	margin-top: 120px;
+}
+#rule ul{
+	float: right;
+	font-size: 12px;
+}
+#rule ul li{
+	width: 185px;
+	height: 24px;
+	line-height: 24px;
+}
+#rule ul li div{
+	background: url(../img/向右箭头2.jpg);
+	width: 8px;
+	height: 12px;
+	float: left;
+	margin-top: 6px;
+	margin-left: -8px;
+}
+#rule ul li p{
+	float: right;
+	text-align: center;
+}
+#rule ul li a{
+	display: block;
+	width: 173px;
+	height: 24px;
+	margin-left: 8px;
+}
+.rule3{
+	color: #666;
+}
+.rule4{
+	color: #666;
+}
+.rule3:hover{
+	background: #00a887;
+	color: #fff;
+}
+.rule4:hover{
+	background: #e3e3e3;
+}
+/**********video结束**********/
+
+/**********fight开始**********/
+#fight{
+	height: 40px;
+	background: #f8f8f8;
+	font-size: 12px;
+	padding-top: 25px;
+}
+#fight-left{
+	float: left;
+	width: 590px;
+	height: 40px;
+}
+#fight-left div{
+	float: left;
+	width: 101px;
+	height: 29px;
+	background: url(../img/赛事中心.jpg);
+}
+#fight p{
+	width: 20px;
+	height: 19px;
+	float: left;
+	background: url(../img/灰加号.jpg);	
+	margin-top: 5px;
+	margin-right: 3px;
+}
+#fight a{
+	float: right;
+	display: block;
+	color: #666;
+	line-height: 30px;
+}
+#fight a:hover{
+	text-decoration: underline;
+}
+#fight-right{
+	float: right;
+	width: 350px;
+	height: 40px;
+}
+#fight-right div{
+	width: 105px;
+	height: 28px;
+	background: url(../img/战争学院.jpg);
+	float: left;
+}
+/**********fight结束**********/
+
+/**********match开始**********/
+#match{
+	background: #f8f8f8;
+	height: 308px;
+}
+#match-left{
+	height: 305px;
+	width: 588px;
+	position: relative;
+	background: #fff;
+	border: 1px solid #d7d7d7;
+	border-top: none;
+	float: left;
+}
+#match-nav ul{
+	width: 588px;
+	height: 60px;
+}
+#match-nav li{
+	width: 84px;
+	height: 55px;
+	float: left;
+	font-size: 14px;
+}
+#match-nav li a{
+	display: block;
+	width: 84px;
+	height: 55px;
+	color: #525252;
+	text-align: center;
+	line-height: 55px;
+	background: #f0f0f0;
+	border-top: 5px solid #d7d7d7;
+}
+#match-left h1{
+	font-size: 20px;
+}
+#match-left h1 a{
+	color: #00a686;
+}
+#match-left h1 a:hover{
+	text-decoration: underline;
+}
+.listing{
+	padding-top: 10px;
+}
+.listing li{
+	width: 367px;
+	height: 24px;
+	font-size: 12px;
+	line-height: 24px;
+}
+.listing li div{
+	width: 8px;
+	height: 12px;
+	background: url(../img/向右箭头2.jpg);
+	margin-top: 5px;
+	float: left;
+	margin-right: 10px;
+}
+.listing li a{
+	color: #666;
+}
+.listing li a:hover{
+	text-decoration: underline;
+}
+.listing li p{
+	float: right;
+	color: #999;
+}
+#enter{
+	position: absolute;
+	display: block;
+	width: 162px;
+	height: 37px;
+	background: #00a384;
+	color: #fff;
+	font-weight: bold;
+	text-align: center;
+	line-height: 37px;
+	font-size: 14px;
+	top: 250px;
+	left: 20px;
+}
+#enter:hover{
+	text-decoration: underline;
+}
+#match-right{
+	height: 305px;
+	width: 352px;
+	float: right;
+}
+#match-right ul li div{
+	width: 8px;
+	height: 12px;
+	float: left;
+	background: url(../img/向右箭头2.jpg);
+	margin-top: 6px;
+	margin-right: 10px;
+}
+#match-right ul li{
+	width: 350px;
+	height: 24px;
+	font-size: 12px;
+	line-height: 24px;
+}
+#match-right ul li a{
+	color: #666;
+}
+#match-right ul li a:hover{
+	text-decoration: underline;
+}
+#match-right img{
+	margin-top: 40px;
+}
+/**********match结束**********/
+
+/**********sever开始**********/
+#serve{
+	height: 308px;
+	background: #f8f8f8;
+	padding-top: 40px;
+}
+#serve-top{
+	width: 590px;
+	height: 40px;
+	font-size: 12px;
+}
+#serve-top img{
+	float: left;
+}
+#serve-top a{
+	color: #666;
+	line-height: 25px;
+}
+#serve-top a:hover{
+	text-decoration: underline;
+}
+#serve-mid{
+	width: 595px;
+	height: 38px;
+}
+#serve-left{
+	float: left;
+	border-top: 1px solid #bbb;
+	border-left: 1px solid #bbb;
+}
+#serve-left li{
+	float: left;
+	font-size: 14px;
+	width: 94px;
+	height: 34px;
+	text-align: center;
+	line-height: 34px;
+}
+#serve-left li a{
+	display: block;
+	width: 93px;
+	height: 34px;
+	color: #666;
+	border-bottom: 1px solid #bbb;
+}
+#serve-right{
+	float: right;
+	padding-right: 10px;
+	width: 395px;
+	border: 1px solid #bbb;
+	border-left: 0;
+}
+#serve-right li{
+	float: left;
+	font-size: 12px;
+	height: 34px;
+	line-height: 34px;
+}
+#serve-right li a{
+	color: #666;
+}
+#serve-right li a:hover{
+	text-decoration: underline;
+}
+#serve-right li span{
+	color: #666;
+	margin-left: 5px;
+	margin-right: 5px;
+}
+/**********sever结束**********/
+
+/**********footer开始**********/
+#footer{
+	background: #f8f8f8;
+	height: 260px;
+}
+#footer-top{
+	height: 85px;
+	border-bottom: 3px solid #d0d0d0;
+}
+.list{
+	float: left;
+}
+.list li{
+	font-size: 12px;
+	height: 25px;
+	line-height: 25px;
+	margin-left: 20px;
+	color: #a5a5a5;
+}
+#footer-right{
+	float: right;
+	width: 660px;
+	height: 120px;
+}
+#footer-right ul li{
+	float: left;
+	font-size: 12px;
+	margin-top: 20px;
+	margin-bottom: 5px;
+}
+#footer-right ul li span{
+	margin-left: 3px;
+	margin-right: 3px;
+	color: #666;
+}
+#footer-right ul li a{
+	color: #666;
+}
+#footer-right ul li a:hover{
+	text-decoration: underline;
+}
+#footer-right p{
+	color: #666;
+	font-size: 12px;
+	line-height: 18px;
+}
+/**********footer结束**********/
